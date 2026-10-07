@@ -150,3 +150,50 @@ a{color:var(--ink);}
   .nav-toggle{display:block;}
   .hero h1{font-size:34px;}
 }
+
+
+/* ===== Night theme: dark header & footer, image hero ===== */
+.site-header{background:#0b0b0b;border-bottom:1px solid #2a2a2a;}
+.site-header .logo-mark,.site-header .logo-word{color:#fff;}
+.site-header .logo-word{letter-spacing:.08em;}
+.site-header svg path{stroke:#fff;}
+.site-header svg circle{fill:#fff;}
+.main-nav a{color:#fff;}
+.main-nav a:hover{border-bottom-color:#fff;}
+.nav-toggle{color:#fff;border-color:#fff;}
+.site-footer{background:#0b0b0b;color:#fff;border-top:1px solid #2a2a2a;margin-top:0;}
+.site-footer .logo-mark,.site-footer .logo-word{color:#fff;}
+.site-footer svg path{stroke:#fff;}
+.site-footer svg circle{fill:#fff;}
+.site-footer a,.footer-links h4{color:#fff;}
+.footer-brand p{color:#bdbdb5;}
+.footer-bottom{border-top-color:#2a2a2a;color:#8a8a82;}
+
+.hero-night{
+  color:#fff;
+  background:linear-gradient(rgba(8,8,8,.42),rgba(8,8,8,.80)),url('../images/storefront-night.jpg') center 38%/cover no-repeat;
+  padding:150px 0 130px;
+}
+.hero-night .eyebrow{color:#e6e4dc;}
+.hero-night h1{font-size:64px;font-style:italic;font-weight:500;color:#fff;max-width:880px;text-shadow:0 2px 24px rgba(0,0,0,.45);}
+.hero-night p.lead{color:#ecebe4;max-width:660px;}
+.hero-night .btn{border-color:#fff;color:#fff;}
+.hero-night .btn:hover{background:#fff;color:#111;}
+.hero-night .btn-solid{background:#fff;color:#111;}
+.hero-night .btn-solid:hover{background:transparent;color:#fff;}
+
+.preview-strip{display:grid;grid-template-columns:repeat(3,1fr);background:#0b0b0b;}
+.preview-strip a{display:block;position:relative;overflow:hidden;aspect-ratio:1/1;}
+.preview-strip img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease,opacity .3s;opacity:.92;}
+.preview-strip a:hover img{transform:scale(1.04);opacity:1;}
+.preview-strip span{position:absolute;left:18px;bottom:14px;color:#fff;font-size:12px;letter-spacing:.16em;text-transform:uppercase;text-shadow:0 1px 8px rgba(0,0,0,.7);}
+
+@media (max-width:820px){
+  .header-inner{flex-wrap:wrap;gap:12px;}
+  .main-nav{display:flex;flex-wrap:wrap;gap:8px 18px;width:100%;}
+  .nav-toggle{display:none;}
+  .hero-night{padding:96px 0 84px;}
+  .hero-night h1{font-size:40px;}
+  .preview-strip{grid-template-columns:1fr;}
+  .preview-strip a{aspect-ratio:4/3;}
+}
