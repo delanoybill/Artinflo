@@ -31,7 +31,7 @@ a{color:var(--ink);}
 }
 .header-inner{
   display:flex;align-items:center;justify-content:space-between;
-  padding:20px 0;
+  padding:20px 28px;
 }
 .logo-mark{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink);}
 .logo-mark svg{display:block;}
