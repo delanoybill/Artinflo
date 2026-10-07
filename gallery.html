@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — Infloressense</title>
+<meta name="description" content="Inside Infloressense Fine Art Gallery & Culture Center in Belvidere, NJ — paintings, artisan gifts, jewelry and small-batch finds.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+.gallery-feature{margin:0 auto;max-width:1080px;padding:0 28px;}
+.gallery-feature img{width:100%;display:block;border:1px solid var(--ink);}
+.masonry{columns:3 260px;column-gap:22px;}
+.masonry figure{break-inside:avoid;margin:0 0 22px;}
+.masonry img,.gallery-feature img{cursor:zoom-in;}
+.masonry img{width:100%;display:block;border:1px solid var(--ink);background:var(--tan);}
+figcaption{font-size:13px;color:var(--muted);margin-top:8px;letter-spacing:.02em;}
+.gallery-note{max-width:680px;margin:36px auto 0;text-align:center;color:var(--muted);font-size:14px;}
+.lightbox{position:fixed;inset:0;background:rgba(17,17,17,.92);display:none;align-items:center;justify-content:center;z-index:50;padding:24px;cursor:zoom-out;}
+.lightbox.open{display:flex;}
+.lightbox img{max-width:100%;max-height:100%;border:1px solid #fff;}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo-mark">
+      <svg width="26" height="26" viewBox="0 0 120 120" fill="none" stroke="#111111" stroke-width="2.2" stroke-linecap="round">
+        <path d="M60 96 V56" /><path d="M60 70 L44 58" /><path d="M60 70 L76 58" />
+        <path d="M60 56 L48 40" /><path d="M60 56 L72 40" /><path d="M60 56 L60 34" />
+        <circle cx="44" cy="58" r="3" fill="#111111" stroke="none" /><circle cx="76" cy="58" r="3" fill="#111111" stroke="none" />
+        <circle cx="48" cy="40" r="3" fill="#111111" stroke="none" /><circle cx="72" cy="40" r="3" fill="#111111" stroke="none" />
+        <circle cx="60" cy="34" r="4" fill="#111111" stroke="none" />
+      </svg>
+      <span class="logo-word">Infloressense</span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="story.html">Our Story</a>
+      <a href="events.html">Events</a>
+      <a href="wellness.html">Wellness</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+  </div>
+</header>
+
+<section class="hero" style="padding-bottom:44px;">
+  <div class="container">
+    <p class="eyebrow">The Gallery</p>
+    <h1 style="font-size:40px;">Art on the walls, gifts on the shelves</h1>
+    <p class="lead">A look inside Infloressense on Water Street in Belvidere — original paintings and prints, artisan jewelry, glassware and small-batch finds, all in one room. Come see it in person.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="gallery-feature">
+    <figure style="margin:0;"><img src="images/storefront-night.jpg" alt="Infloressense storefront at night on Water Street, with gallery lights glowing through the front window"><figcaption>Infloressense, 241 Water St, Belvidere NJ</figcaption></figure>
+  </div>
+</section>
+
+<section class="section section-tan">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">On the Walls</p>
+      <h2>Paintings, prints and local scenes</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="masonry">
+      <figure><img src="images/gallery-corner.jpg" alt="Corner of the gallery with framed landscape paintings hung salon-style" loading="lazy"><figcaption>Landscapes and seascapes, salon-style</figcaption></figure>
+      <figure><img src="images/paintings-teepee.jpg" alt="Three sunset and shoreline paintings stacked on a white wall, one with a teepee silhouette" loading="lazy"><figcaption>Sunset and shoreline paintings</figcaption></figure>
+      <figure><img src="images/painting-legs.jpg" alt="Large abstract painting of legs in black, white and gray" loading="lazy"><figcaption>Abstract study in black, white and gray</figcaption></figure>
+      <figure><img src="images/gallery-wall.jpg" alt="Gallery wall of framed paintings including a cow in a meadow and a field with a farmhouse" loading="lazy"><figcaption>Local scenes and landscapes</figcaption></figure>
+      <figure><img src="images/watercolor-figure.jpg" alt="Framed watercolor of an abstract figure with a single eye, in orange, blue and violet" loading="lazy"><figcaption>Watercolor figure study</figcaption></figure>
+      <figure><img src="images/gallery-table.jpg" alt="Long white table in the middle of the gallery surrounded by paintings on easels" loading="lazy"><figcaption>The long table at the heart of the gallery</figcaption></figure>
+      <figure><img src="images/gallery-interior.jpg" alt="View across the gallery floor with paintings leaning against the wall and hanging in the back room" loading="lazy"><figcaption>Across the gallery floor</figcaption></figure>
+
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">From the Shop</p>
+      <h2>Gifts made to be kept</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="masonry">
+      <figure><img src="images/shelf-glassware.jpg" alt="White shelves with colorful glassware, mugs and giftware" loading="lazy"><figcaption>Glassware and giftware</figcaption></figure>
+      <figure><img src="images/palette-pendant.jpg" alt="Handmade palette-shaped pendant necklaces hanging from a wooden beam" loading="lazy"><figcaption>Handmade artist-palette pendants</figcaption></figure>
+      <figure><img src="images/brins-jam.jpg" alt="Jars of Brins small-batch spreads including Forbidden Fruit on a shop shelf" loading="lazy"><figcaption>Small-batch Brins spreads</figcaption></figure>
+
+    </div>
+    <p class="gallery-note">A small selection of what's on view — the collection changes often. Artist credits and prices are available in the gallery; call 973.303.9068 or email Laura@Infloressense.com to ask about a piece.</p>
+    <div class="btn-row" style="margin-top:28px;">
+      <a href="events.html" class="btn btn-solid">See Upcoming Events</a>
+      <a href="https://maps.google.com/?q=241+Water+St+Belvidere+NJ+07823" target="_blank" rel="noopener" class="btn">Plan Your Visit</a>
+    </div>
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox"><img alt=""></div>
+<script>
+(function(){var lb=document.getElementById('lightbox'),li=lb.querySelector('img');
+document.addEventListener('click',function(e){var t=e.target;
+ if(t.tagName==='IMG'&&t.closest('.masonry,.gallery-feature')){li.src=t.src;li.alt=t.alt;lb.classList.add('open');}
+ else if(lb.contains(t)){lb.classList.remove('open');}});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')lb.classList.remove('open');});})();
+</script>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="logo-mark" style="margin-bottom:10px;">
+        <svg width="20" height="20" viewBox="0 0 120 120" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round">
+          <path d="M60 96 V56" /><path d="M60 70 L44 58" /><path d="M60 70 L76 58" />
+          <path d="M60 56 L48 40" /><path d="M60 56 L72 40" /><path d="M60 56 L60 34" />
+        </svg>
+        <span class="logo-word" style="font-size:15px;">Infloressense</span>
+      </a>
+      <p>Fine Art Gallery &amp; Culture Center. Owned by Laura &amp; Michael Malizzi.</p>
+    </div>
+    <div class="footer-links">
+      <h4>Explore</h4>
+      <a href="gallery.html">Gallery</a>
+      <a href="story.html">Our Story</a>
+      <a href="events.html">Events</a>
+      <a href="wellness.html">Wellness</a>
+    </div>
+    <div class="footer-links">
+      <h4>Visit</h4>
+      <a href="https://maps.google.com/?q=241+Water+St+Belvidere+NJ+07823" target="_blank" rel="noopener">241 Water St, Belvidere, NJ 07823</a>
+      <a href="tel:9733039068">973.303.9068</a>
+      <a href="mailto:Laura@Infloressense.com">Laura@Infloressense.com</a>
+    </div>
+    <div class="footer-links">
+      <h4>Connect</h4>
+      <a href="https://naturais.us?utm_source=artinflo&utm_medium=referral&utm_campaign=gallery-partner&utm_content=footer-link">Naturáis Store</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    Tues&ndash;Sat 9am&ndash;6pm &middot; Sun 10am&ndash;4pm &middot; Mon closed<br>
+    &copy; 2026 Infloressense. All rights reserved.
+  </div>
+</footer>
+
+</body>
+</html>
